@@ -7,7 +7,7 @@
         {
             "matches": [
                 "https://www.youtube.com/*",
-                "https://9gag.com/*"
+                "https://www.reddit.com/*"
             ],
             // "css": ["./index.css"],
             "js": [
