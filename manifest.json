@@ -1,0 +1,23 @@
+{
+    "manifest_version": 2,
+    "name": "Focus",
+    "version": "1.0",
+    "description": "Removes distraction from a webpage",
+    "content_scripts": [
+        {
+            "matches": [
+                "https://www.youtube.com/*",
+                "https://9gag.com/*"
+            ],
+            // "css": ["./index.css"],
+            "js": [
+           
+                "./main.js"
+            ]
+        }
+    ],
+    "browser_action": {
+        "default_icon": "no_tv.png",
+        "pop_up": "shopcmp.htm"
+    }
+}
